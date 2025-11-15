@@ -1,0 +1,11 @@
+# Python cache & venv
+__pycache__/
+*.pyc
+venv/
+
+# Datasets & models nặng
+datasets/
+models/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
