@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 
 # Dataset
-DATASET_DIR = BASE_DIR / "datasets"
+DATASET_DIR = BASE_DIR / "archive"
 TRAIN_DIR = DATASET_DIR / "train"
 TEST_DIR = DATASET_DIR / "test"
 
@@ -22,6 +22,6 @@ CLASSES = ["FAKE", "REAL"]
 
 IMAGE_SIZE = 224
 BATCH_SIZE = 64
-NUM_EPOCHS = 10
+NUM_EPOCHS = 3
 LR = 1e-4
-DEVICE = "cuda"  
+DEVICE = "cuda"
